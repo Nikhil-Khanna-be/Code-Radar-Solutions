@@ -18,7 +18,12 @@ int main() {
         printf("%d",m);
     }
     else if (c=='/'){
-        printf("%d",d);
+        if (b==0){
+            printf("Error");
+        }
+        else{
+            printf("%d",d);
+        }
     }
     else{
         printf("Error");
