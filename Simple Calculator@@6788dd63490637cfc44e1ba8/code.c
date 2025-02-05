@@ -5,17 +5,20 @@ int main() {
     char c;
     scanf("%f %f %c",&a,&b,&c);
     int p= a+b;
+    int s=a-b;
+    int m=a*b;
+    int d=a/b;
     if (c=='+'){
         printf("%d",p);
     }
     else if (c=='-'){
-        printf("%d",a-b);
+        printf("%d",s);
     }
     else if (c=='*'){
-        printf("%d",a*b);
+        printf("%d",m);
     }
     else if (c=='/'){
-        printf("%d",a/b);
+        printf("%d",d);
     }
     else{
         printf("Error");
