@@ -19,14 +19,14 @@ int main() {
     }
     else if (c=='/'){
         if (b==0){
-            printf("Error");
+            printf("error");
         }
         else{
             printf("%d",d);
         }
     }
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
