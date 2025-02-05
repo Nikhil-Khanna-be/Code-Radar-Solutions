@@ -6,6 +6,8 @@ int main() {
     if (a=="A"){
         printf("Excellent");
     }
-    
+    else{
+        printf("hj");
+    }
     return 0;
 }
