@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int a,i;
+    int a,i,j;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
-        printf('*'*(a-i));
+        for(j=1;j<=a;j++){
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
 }
