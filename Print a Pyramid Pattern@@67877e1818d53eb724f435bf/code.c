@@ -3,14 +3,12 @@
 int main() {
     int a,i,j,k;
     scanf("%d",&a);
-    for (k=1;k<=a;k++){
-        for(i=1;i<=((2*k)-1);i++){
-            if((i==a)||(i==a-k)){
-                printf(" ");
-            }
-            else{
-                printf("*");
-            }
+    for(i=1;i<=a;i++){
+        for (j=1;j<=a-i;j++){
+            printf(" ");
+        }
+        for(k=1;k<=((2*a)-1);k++){
+            printf("*");
         }
         printf("\n");
     }
