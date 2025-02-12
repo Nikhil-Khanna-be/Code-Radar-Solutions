@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,i,j,k,x,y,z;
+    int a,i,j,k;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
         for (j=1;j<=a-i;j++){
@@ -12,14 +12,14 @@ int main() {
         }
         printf("\n");
     }
-    for (x=1;x<a;x++){
-        for(y=1,y<=x;y++){
+    for (i=1;i<a;i++){
+        for(j=1;j<=i;j++){
             printf(" ");
         }
-        for(z=1;z<=((2*(a-x))-1);z++){
+        for(k=1;k<=((2*(a-i))-1);k++){
             printf("*");
         }
-        printf("\n");
+        printf("\n")
     }
     return 0;
 }
