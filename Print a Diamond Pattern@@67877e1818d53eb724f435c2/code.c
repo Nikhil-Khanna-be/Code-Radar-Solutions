@@ -19,7 +19,7 @@ int main() {
         for(k=1;k<=((2*(a-i))-1);k++){
             printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
