@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,i;
-    int prime=0;
+    int notprime=0;
     for(i=2;i<a;i++){
         if(a%i==0){
             notprime=1;
