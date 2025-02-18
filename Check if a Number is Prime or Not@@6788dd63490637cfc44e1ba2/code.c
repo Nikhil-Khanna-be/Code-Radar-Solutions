@@ -7,10 +7,9 @@ int main(){
             notprime=1;
         }
     }
-    if(notprime){
-        printf("Not Prime");
-    }
-    else{
+    if(a==i){
         printf("Prime");
     }
+
+    
 }
