@@ -12,4 +12,4 @@ else{
     if(a==i)
     printf("Prime");
 }
-}}
+} return 0;}
