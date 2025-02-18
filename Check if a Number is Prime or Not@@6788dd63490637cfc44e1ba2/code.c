@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
     int a,i;
-    int notprime=0;
-    for(i=2;i<a;i++){
+if(a==1)
+printf("Not Prime");
+else{
+    while(i<a){
+       
         if(a%i==0){
-            notprime=1;
-        }
-    
-    if(a==i){
-        printf("Prime");
+        printf("Not Prime");
     }
-    }
-    
+    if(a==i)
+    printf("Prime");
 }
+}}
