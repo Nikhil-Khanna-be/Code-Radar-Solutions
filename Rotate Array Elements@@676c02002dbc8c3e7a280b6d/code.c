@@ -10,7 +10,7 @@ int main(){
         array1[i]=array[a-k-i];
     }
     for(int i=0;i<(a-k);i++){
-        array1[a-k+i]=array[i]
+        array1[a-k+i]=array[i];
     }
     for(int i=0;i<a;i++){
         printf("%d\n",array1[i]);
