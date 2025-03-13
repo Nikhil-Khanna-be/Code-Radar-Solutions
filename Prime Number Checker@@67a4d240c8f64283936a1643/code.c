@@ -11,7 +11,7 @@ int isprime(int a){
     else{
         for(int i=2;i<a;i++){
             if(a%i==0){
-                continue
+                continue;
             }
             else{
                 printf("%d",1);
