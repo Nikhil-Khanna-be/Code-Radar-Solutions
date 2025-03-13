@@ -5,4 +5,5 @@ int main(){
     scanf("%d %d",&a,&b);
     int c=pow(2,b);
     printf("%d",c+a);
+    return 0;
 }
