@@ -1,8 +1,8 @@
 int isPrime(int);
 int isPrime(int x){
     int a=1,b=0;
-    if(x=1){
-        return a;
+    if(x==1){
+        return b;
     }
     else if(x=2){
 
