@@ -1,19 +1,19 @@
 int fibonacciSeries(int);
 int fibonacciSeries(int n){
-    if (n=1){
-        printf("%d ",0);
+    int a=0,b=1,next;
+    if (n>=1){
+        printf("%d ",a);
     }
-    else if (n=2){
-        printf("%d %d",0,1);
+    else if (n>=2){
+        printf("%d ",b);
     }
     else{
-        printf("%d %d ",0,1);
-        int fibonacciSeries(1)=0
-        int fibonacciSeries(2)=1
+        
         for(int i=3;i<=n;i++){
-            
-            printf("%d ",fibonacciSeries(n-1)+fibonacciSeries(n-2));
-            
+            next=a+b;
+            printf("%d ",next);
+            b=a;
+            a=next;
         }
     }
 }
