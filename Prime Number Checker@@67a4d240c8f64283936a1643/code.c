@@ -1,21 +1,23 @@
 int isPrime(int);
-int isPrime(int a){
-    if(a=1){
-        printf("%d",0);
+int isPrime(int x){
+    int a=1,b=0;
+    if(x=1){
+        printf("%d",b);
     }
-    else if(a=2){
-        printf("%d",1);
+    else if(x=2){
+        printf("%d",a);
     }
     else{
-        for(int i=2;i<a;i++){
-            if(a%i==0){
+        for(i=2;i<x;i++){
+            if(x%i=0){
                 continue;
             }
             else{
-                printf("%d",1);
+                printf("%d",a);
                 return 0;
             }
-            printf("%d",0);
         }
+        printf("%d",b);
+        return 0;
     }
 }
