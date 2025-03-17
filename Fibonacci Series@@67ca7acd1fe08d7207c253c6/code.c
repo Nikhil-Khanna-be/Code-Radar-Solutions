@@ -9,7 +9,7 @@ int fibonacciSeries(int n){
         printf("%d ",1);
     }
     else{
-        printf("%d ",fibonacciSeries(n-1)+fibonacciSeries(n-2))l
+        printf("%d ",fibonacciSeries(n-1)+fibonacciSeries(n-2));
     }
 }
 
