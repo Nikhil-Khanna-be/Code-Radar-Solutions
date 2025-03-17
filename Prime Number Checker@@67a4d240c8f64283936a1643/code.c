@@ -8,7 +8,7 @@ int isPrime(int x){
         printf("%d",a);
     }
     else{
-        for(i=2;i<x;i++){
+        for(int i=2;i<x;i++){
             if(x%i=0){
                 continue;
             }
