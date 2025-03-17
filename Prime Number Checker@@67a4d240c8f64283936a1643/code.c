@@ -2,7 +2,7 @@ int isPrime(int);
 int isPrime(int x){
     int a=1,b=0;
     if(x=1){
-        printf("%d",b);
+        printf("%d",a);
     }
     else if(x=2){
         printf("%d",a);
