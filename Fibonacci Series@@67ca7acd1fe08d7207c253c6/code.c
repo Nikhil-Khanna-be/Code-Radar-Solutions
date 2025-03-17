@@ -4,16 +4,16 @@ int fibonacciSeries(int n){
     if (n>=1){
         printf("%d ",a);
     }
-    else if (n>=2){
+    if (n>=2){
         printf("%d ",b);
     }
-    else{
+    
         
-        for(int i=3;i<=n;i++){
-            next=a+b;
-            printf("%d ",next);
-            a=b;
-            b=next;
+    for(int i=3;i<=n;i++){
+        next=a+b;
+        printf("%d ",next);
+        a=b;
+        b=next;
         }
-    }
+    
 }
