@@ -2,12 +2,11 @@ int isPrime(int);
 int isPrime(int x){
     int a=1,b=0;
     if(x=1){
-        printf("%d",b);
-        return 0;
+        return b;
     }
     else if(x=2){
-        printf("%d",a);
-        return 0;
+
+        return a;
     }
     else{
         for(int i=2;i<x;i++){
@@ -15,11 +14,11 @@ int isPrime(int x){
                 continue;
             }
             else{
-                printf("%d",a);
-                return 0;
+                
+                return a;
             }
         }
-        printf("%d",b);
-        return 0;
+        
+        return b;
     }
 }
