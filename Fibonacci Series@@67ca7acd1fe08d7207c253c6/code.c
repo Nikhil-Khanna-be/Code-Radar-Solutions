@@ -8,6 +8,8 @@ int fibonacciSeries(int n){
     }
     else{
         printf("%d %d ",0,1);
+        int fibonacciSeries(1)=0
+        int fibonacciSeries(2)=1
         for(int i=3;i<=n;i++){
             
             printf("%d ",fibonacciSeries(n-1)+fibonacciSeries(n-2));
@@ -15,6 +17,3 @@ int fibonacciSeries(int n){
         }
     }
 }
-
-
-
