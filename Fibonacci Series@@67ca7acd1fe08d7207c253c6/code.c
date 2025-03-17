@@ -10,16 +10,21 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
+    int a=0;
+    int b=1;
     for(int i=1;i<=n;i++){
         if(n=1){
-            printf("%d",0);
+            printf("%d ",a);
         }
         else if(n=2){
-            printf("%d",1);
+            printf("%d ",b);
         }
-        // else{
-        //     printf("")
-        // }
+        else{
+            printf("%d ",a+b);
+        }
+        a=b;
+        b=a+b;
+
     }
 
     return 0;
