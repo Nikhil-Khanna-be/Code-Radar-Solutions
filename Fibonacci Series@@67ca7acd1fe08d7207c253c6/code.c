@@ -6,7 +6,7 @@ int fibonacciSeries(int n){
         printf("%d ",0);
     }
     else if (n=2){
-        printf("%d ",1);
+        printf("%d %d",0,1);
     }
     else{
         printf("%d %d ",0,1);
