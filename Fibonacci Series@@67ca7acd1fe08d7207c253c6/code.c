@@ -12,8 +12,8 @@ int fibonacciSeries(int n){
         for(int i=3;i<=n;i++){
             next=a+b;
             printf("%d ",next);
-            b=a;
-            a=next;
+            a=b;
+            b=next;
         }
     }
 }
