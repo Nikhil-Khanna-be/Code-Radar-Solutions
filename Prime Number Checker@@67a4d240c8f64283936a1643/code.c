@@ -2,7 +2,7 @@ int isPrime(int);
 int isPrime(int x){
     int a=1,b=0;
     if(x=1){
-        return b;
+        return a;
     }
     else if(x=2){
 
@@ -19,6 +19,6 @@ int isPrime(int x){
             }
         }
         
-        return a;
+        return b;
     }
 }
