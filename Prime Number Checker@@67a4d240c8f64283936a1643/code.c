@@ -7,6 +7,9 @@ int isPrime(int x){
     else if(x==2){
 
         return a;
+    else if(x==0){
+
+        return b;
     }
     else{
         for(int i=2;i<x;i++){
