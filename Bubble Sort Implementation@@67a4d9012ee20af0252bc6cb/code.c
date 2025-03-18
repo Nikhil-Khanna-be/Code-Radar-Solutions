@@ -1,5 +1,5 @@
 int bubbleSort(int,int);
-int bubbleSort(int arr,int n){
+int bubbleSort(int arr[],int n){
     if (n=0){
         return 0;
     }
@@ -20,7 +20,7 @@ int bubbleSort(int arr,int n){
     }
 }
 int printArray(int,int);
-int printArray(int arr,int n){
+int printArray(int arr[],int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
