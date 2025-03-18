@@ -10,7 +10,7 @@ int main(){
         array1[i]=array2[a+i-k];
     }
     for(int i=0;i<(a-k);i++){
-        array1[a+i-k]=array2[i];
+        array1[k-1+i]=array2[i];
     }
     for(int i=0;i<a;i++){
         printf("%d\n",array1[i]);
