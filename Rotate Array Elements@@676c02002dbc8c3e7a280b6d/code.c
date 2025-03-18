@@ -7,7 +7,7 @@ int main(){
     }
     scanf("%d",&k);
     for(int i=0;i<k;i++){
-        array1[i]=array2[a+i-1];
+        array1[i]=array2[a+i-2];
     }
     for(int i=0;i<(a-k);i++){
         array1[a+i-k-1]=array2[i];
