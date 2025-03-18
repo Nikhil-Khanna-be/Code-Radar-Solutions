@@ -1,15 +1,37 @@
 int findUnsortedSubarray(int arr[],int n){
     int a,b;
-    for(int i=0;i<n-1;i++){
-        for(int j=0;j<n-i-1;j++){
-            if(arr[j]>arr[j+1]){
-                a=j;
-                break;
+        int arr2[]=arr[];
+        for(int j=0;j<n-1;j++){
+            for(int i=0;i<n-j-1;i++){
+                if (arr[i]>arr[i+1]){
+                    int a=arr[i+1];
+                    arr[i+1]=arr[i];
+                    arr[i]=a;
+                }
+                else{
+                    continue;
+                }
             }
-            else{
-                continue;
-            }
+            
+        
+    }
+    for(int i=0;i<n;i++){
+        if(arr2[i]=arr[i]){
+            continue;
+        }
+        else{
+            a=i;
+            break;
         }
     }
-    for(int i=0;i<n-1)
+    for(int i=0;i<n;i++){
+        if(arr2[n-i-1]=arr[n-i-1]){
+            continue;
+        }
+        else{
+            b=(n-i-1);
+            break;
+        }
+    }
+    return b-a;
 }
