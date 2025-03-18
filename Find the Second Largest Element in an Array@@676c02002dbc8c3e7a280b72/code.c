@@ -18,6 +18,9 @@ int main(){
     if(a==1){
         printf("%d",-1);
     }
+    else if(arr[a-1]==arr[a-2]){
+        printf("%d",-1);
+    }
     else{
         printf("%d",arr[a-2]);
     }
