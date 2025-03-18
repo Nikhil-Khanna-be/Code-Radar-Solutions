@@ -11,6 +11,10 @@ int main(){
             printf("%d",arr[i]);
             return 0;
         }
+        else if(arr[i]==arr[i+1]){
+            printf("%d",-1);
+            return 0;
+        }
         else{
             continue;
         }
