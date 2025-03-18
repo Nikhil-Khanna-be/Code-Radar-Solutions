@@ -12,7 +12,7 @@ int bubbleSort(int arr[],int n){
                     continue;
                 }
             }
-            n=n-1;
+            
         
     }
 }
