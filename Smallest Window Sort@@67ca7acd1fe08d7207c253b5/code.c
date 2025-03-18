@@ -20,6 +20,7 @@ int findUnsortedSubarray(int arr[],int n){
     }
     for(int i=0;i<n;i++){
         if(arr2[i]==arr[i]){
+            a=2;
             continue;
         }
         else{
@@ -29,6 +30,7 @@ int findUnsortedSubarray(int arr[],int n){
     }
     for(int i=0;i<n;i++){
         if(arr2[n-i-1]==arr[n-i-1]){
+            b=1;
             continue;
         }
         else{
