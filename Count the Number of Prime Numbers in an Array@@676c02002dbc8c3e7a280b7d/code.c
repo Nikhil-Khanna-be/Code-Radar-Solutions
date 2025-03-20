@@ -1,4 +1,23 @@
 #include<stdio.h>
+void prime(int);
+void prime(int x){
+    int ab=0;
+    for(int i=2;i<x;i++){
+        if(x%i==0){
+            break;
+        }
+        else{
+            ab+=1;
+        }
+        
+    }
+    if(ab==(x-3)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
 int main(){
     int a;
     scanf("%d",&a);
@@ -9,22 +28,11 @@ int main(){
     int count=0;
     
     for(int i=0;i<a;i++){
-        if(arr[i]==2){
+        if(prime(arr[i])){
             count+=1;
         }
         else{
-            int x=0;
-            for(int j=2;j<arr[i];j++){
-                if(arr[i]%j==0){
-                    break;
-                }
-                else{
-                    continue;
-                }
-            }
-            if(a>0){
-                count+=1;
-            }
+            continue;
         }
     }
     printf("%d",count);
