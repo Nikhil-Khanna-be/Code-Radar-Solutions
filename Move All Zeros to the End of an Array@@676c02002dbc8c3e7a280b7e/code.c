@@ -14,6 +14,9 @@ int main(){
                     arr[j]=arr[j+1];
                     count+=1;
             }
+                else{
+                    continue;
+                }
             
         }
         
