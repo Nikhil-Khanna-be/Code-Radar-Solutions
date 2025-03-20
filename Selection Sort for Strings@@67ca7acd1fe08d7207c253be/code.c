@@ -1,7 +1,9 @@
 void selectionSort(char arr[100];int a){
     for(int i=0;i<a-1;i++){
         for(int j=0;j<a-i-1;j++){
-            if(arr[j][0]<arr[j+1][0]){
+            int x=arr[j][0];
+            int y=arr[j+1][0]
+            if(x<y){
                 continue;
             }
             else{
