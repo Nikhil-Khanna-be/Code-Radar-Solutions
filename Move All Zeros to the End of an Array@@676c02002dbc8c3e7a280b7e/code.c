@@ -12,7 +12,6 @@ int main(){
             for(int j=0;j<a-1;j++){
                 if(arr[0]==0){
                     arr[j]=arr[j+1];
-                }
             }
             count+=1;
         }
