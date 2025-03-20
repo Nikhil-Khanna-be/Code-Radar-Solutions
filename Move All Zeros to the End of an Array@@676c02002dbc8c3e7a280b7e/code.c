@@ -8,15 +8,13 @@ int main(){
     }
     int count=0;
     for(int i=0;i<a;i++){
-        if(arr[i]!=0){
-            continue;
-        }
-        else{
+        if(arr[0]==0){
             for(int j=0;j<a-1;j++){
                 arr[j]=arr[j+1];
             }
             count+=1;
         }
+        
     }
     for(int i=0;i<count;i++){
         arr[a-i-1]=0;
