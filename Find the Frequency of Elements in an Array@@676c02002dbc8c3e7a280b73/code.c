@@ -18,6 +18,6 @@ int main(){
                 fre+=1;
             }
         }
-        printf("%d %d",arr[i];fre);
+        printf("%d %d",arr[i],fre);
     }
 }
