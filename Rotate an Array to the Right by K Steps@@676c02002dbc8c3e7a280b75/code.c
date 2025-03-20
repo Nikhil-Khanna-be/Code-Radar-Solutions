@@ -9,6 +9,7 @@ int main(){
     int arr2[a];
     int b;
     scanf("%d",&b);
+    b=b%a;
     for(int i=0;i<b;i++){
         arr2[i]=arr[a-b+i];
     }
