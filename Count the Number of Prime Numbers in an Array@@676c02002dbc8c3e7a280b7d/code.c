@@ -1,6 +1,6 @@
 #include<stdio.h>
-void prime(int);
-void prime(int x){
+int prime(int);
+int prime(int x){
     int ab=0;
     for(int i=2;i<x;i++){
         if(x%i==0){
@@ -12,10 +12,10 @@ void prime(int x){
         
     }
     if(ab==(x-3)){
-        return true;
+        return 1;
     }
     else{
-        return false;
+        return 0;
     }
 }
 int main(){
@@ -28,7 +28,7 @@ int main(){
     int count=0;
     
     for(int i=0;i<a;i++){
-        if(prime(arr[i])){
+        if(prime(arr[i])=1){
             count+=1;
         }
         else{
