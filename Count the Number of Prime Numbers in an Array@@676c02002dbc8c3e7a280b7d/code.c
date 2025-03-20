@@ -9,7 +9,7 @@ int main(){
     int count=0;
     
     for(int i=0;i<a;i++){
-        if(arr[i]==1||arr[i]==2){
+        if(arr[i]==2){
             count+=1;
         }
         else{
