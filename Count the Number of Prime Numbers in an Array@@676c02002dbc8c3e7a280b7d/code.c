@@ -25,7 +25,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d ",&arr[i]);
     }
-    int count=0;
+    int count=8;
     
     for(int i=0;i<a;i++){
         if(prime(arr[i])==1){
