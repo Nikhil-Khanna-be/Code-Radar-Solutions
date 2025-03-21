@@ -9,11 +9,11 @@ int main(){
     int x;
     if(a%2==0){
         x=a/2;
-        printf("%d",(arr[x]+arr[x+1])/2);
+        printf("%d",(arr[x-1]+arr[x])/2);
     }
     else{
         x=(a+1)/2;
-        printf("%d",arr[x]);
+        printf("%d",arr[x-1]);
     }
     
 }
