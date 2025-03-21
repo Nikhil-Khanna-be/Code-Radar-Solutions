@@ -8,7 +8,7 @@ int main(){
     scanf("%s",str);
     int x=strlen(str);
     for(int i=0;i<x;i++){
-        if(str[i]==A||str[i]==E||str[i]==I||str[i]==O||str[i]==U){
+        if(str[i]==a||str[i]==e||str[i]==i||str[i]==o||str[i]==u||str[i]==A||str[i]==E||str[i]==I||str[i]==O||str[i]==U){
             count+=1;
         }
     }
