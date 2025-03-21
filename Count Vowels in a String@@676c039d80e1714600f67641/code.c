@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-    char A='a',E='e',I='i',O='o',U='u';
+    char a='a',e='e',i='i',o='o',u='u',A='A',E='E',I='I',O='O',U='U';
     int count=0;
     char str[100];
     scanf("%s",str);
