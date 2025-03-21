@@ -7,15 +7,19 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<a-1;i++){
+        int count=0;
         for(int j=i+1;j<a-1-i;j++){
+    
             if(arr[i]<arr[j]){
-                return 0;
+                break;
             }
             else{
-                continue;
+                count+=1;
             }
         }
-        printf("%d ",arr[i]);
+        if(count==a-i-1){
+            printf("%d",arr[i]);
+        }
         
     }
     printf("%d",arr[a-1]);
