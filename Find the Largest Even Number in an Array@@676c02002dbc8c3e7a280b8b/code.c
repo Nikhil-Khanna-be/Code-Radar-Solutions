@@ -18,8 +18,8 @@ int main(){
             }
         }
     }
-    for(int i=0;i<a;i++){
-        if(arr[a-i-1]%2==0){
+    for(int i=a-1;i>=0;i--){
+        if(arr[i]%2==0){
             printf("%d",arr[i]);
             return 0;
         }
