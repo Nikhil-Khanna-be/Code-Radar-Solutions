@@ -18,7 +18,7 @@ int main(){
             }
         }
         if(count==a-i-1){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
         
     }
