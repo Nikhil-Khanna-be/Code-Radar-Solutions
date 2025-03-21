@@ -7,12 +7,16 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     for(int i=0;i<a-1;i++){
-        if(arr[i+1]<arr[i]){
-            printf("%d ",arr[i+1]);
+        for(int j=i+1;j<a-1-i;j++){
+            if(arr[i]<arr[j]){
+                break:
+            }
+            else{
+                continue;
+            }
         }
-        else{
-            continue;
-        }
+        printf("%d ",arr[i]);
+        
     }
     printf("%d",arr[a-1]);
 }
