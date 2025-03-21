@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<a-1;i++){
         int count=0;
-        for(int j=i+1;j<a-1-i;j++){
+        for(int j=i+1;j<a-i;j++){
     
             if(arr[i]<arr[j]){
                 break;
