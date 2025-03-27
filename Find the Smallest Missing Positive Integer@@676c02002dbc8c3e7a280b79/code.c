@@ -23,13 +23,20 @@ int main(){
             continue;
         }
         else{
-            // if(arr[i])
-            // else 
+             
             if(arr[i+1]==arr[i]+1){
                 continue;
             }
             else{
                 printf("%d",arr[i]+1);
+                return 0;
+            }
+        }
+    }
+    for(int i=0;i<a;i++){
+        if(arr[i>0]){
+            if(arr[i])!=1{
+                printf("%d",1);
                 return 0;
             }
         }
