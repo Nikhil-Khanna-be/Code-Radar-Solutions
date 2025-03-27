@@ -37,9 +37,9 @@ int findUnsortedSubarray(int arr[],int a){
     }
     int c=y-x+1;
     if(x==0&&y==0){
-        printf("%d",0);
+        return 0;
     }
     else{
-        printf("%d",c);
+        return c;
     }
 }
