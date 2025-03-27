@@ -33,14 +33,7 @@ int main(){
             }
         }
     }
-    for(int i=0;i<a;i++){
-        if(arr[i>0]){
-            if((arr[i])!=1){
-                printf("%d",1);
-                return 0;
-            }
-        }
-    }
+    
     int x=arr[a-1]+1;
     while(10){
         if(x>0){
