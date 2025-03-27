@@ -23,8 +23,9 @@ int main(){
             continue;
         }
         else{
-            if(arr[i])
-            else if(arr[i+1]==arr[i]+1){
+            // if(arr[i])
+            // else 
+            if(arr[i+1]==arr[i]+1){
                 continue;
             }
             else{
