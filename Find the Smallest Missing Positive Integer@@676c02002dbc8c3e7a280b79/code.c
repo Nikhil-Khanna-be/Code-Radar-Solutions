@@ -19,7 +19,7 @@ int main(){
         }
     }
     for(int i=0;i<a-1;i++){
-        if(a<0){
+        if(arr[i]<0){
             continue;
         }
         else{
