@@ -32,6 +32,14 @@ int main(){
             }
         }
     }
-    printf("%d",arr[a-1]+1);
+    while(true){
+        if(arr[a-1]+1>0){
+            printf("%d",arr[a-1]+1);
+            break;
+        }
+        else{
+            (arr[a-1]+1)+=1;
+        }
+    }
     return 0;
 }
