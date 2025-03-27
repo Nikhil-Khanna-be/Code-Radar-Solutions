@@ -32,13 +32,14 @@ int main(){
             }
         }
     }
+    int x=arr[a-1]+1;
     while(10){
-        if(arr[a-1]+1>0){
-            printf("%d",arr[a-1]+1);
+        if(x>0){
+            printf("%d",x);
             break;
         }
         else{
-            (arr[a-1]+1)+=1;
+            x+=1;
         }
     }
     return 0;
