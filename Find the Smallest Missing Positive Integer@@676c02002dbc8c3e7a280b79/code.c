@@ -32,7 +32,7 @@ int main(){
             }
         }
     }
-    while(true){
+    while(10){
         if(arr[a-1]+1>0){
             printf("%d",arr[a-1]+1);
             break;
