@@ -8,14 +8,14 @@ int main(){
     }
     int arr2[a];
     int count=0;
-    int a=0;
+    int x=0;
     for(int i=0;i<a;i++){
         if(arr[i]==0){
             count+=1;
         }
         else{
             arr2[a]=arr[i];
-            a+=1;
+            x+=1;
         }
     }
     for(int i=a-1;i>=a-count;i--){
