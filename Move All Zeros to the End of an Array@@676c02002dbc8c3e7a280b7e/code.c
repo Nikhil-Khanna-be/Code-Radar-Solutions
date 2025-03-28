@@ -14,7 +14,7 @@ int main(){
             count+=1;
         }
         else{
-            arr2[a]=arr[i];
+            arr2[x]=arr[i];
             x+=1;
         }
     }
