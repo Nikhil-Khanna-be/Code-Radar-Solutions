@@ -18,9 +18,12 @@ int main(){
             x+=1;
         }
     }
-    for(int i=a-1;i>=a-count;i--){
+    if(count>0){
+        for(int i=a-1;i>=a-count;i--){
         arr2[i]=0;
     }
+    }
+    
     for(int i=0;i<a;i++){
         printf("%d ",arr2[i]);
     }
