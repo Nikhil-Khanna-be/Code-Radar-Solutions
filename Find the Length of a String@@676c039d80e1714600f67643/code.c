@@ -4,5 +4,5 @@
 int main(){
     char str[100];
     gets(str);
-    printf("%d",strlen(str));
+    printf("%d",sizeof(str));
 }
