@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-    char str;
-    gets(&str);
+    char str[100];
+    gets(str);
     printf("%d",strlen(str));
 }
