@@ -3,6 +3,6 @@
 
 int main(){
     char str;
-    gets(str);
+    gets(&str);
     printf("%d",strlen(str));
 }
