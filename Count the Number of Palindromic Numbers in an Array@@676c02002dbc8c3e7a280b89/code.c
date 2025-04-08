@@ -1,6 +1,9 @@
 #include<stdio.h>
 int pallin(int);
 int pallin(int x){
+    if(x<0){
+        return 0;
+    }
     int new=0;
     int x1=x;
     while(x){
