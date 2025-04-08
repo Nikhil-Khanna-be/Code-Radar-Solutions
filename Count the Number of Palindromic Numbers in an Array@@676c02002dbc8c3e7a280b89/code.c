@@ -3,7 +3,7 @@ int pallin(x){
     int new=0;
     int x1=x;
     while(x){
-        y=x%10;
+        int y=x%10;
         new=(new*10)+y;
         x=x/10;
     }
