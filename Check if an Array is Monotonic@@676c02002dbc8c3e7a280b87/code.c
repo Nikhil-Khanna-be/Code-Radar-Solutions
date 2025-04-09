@@ -27,10 +27,10 @@ int main(){
     }
     for(int i=0;i<a;i++){
         if(arr[i]==arr2[i]){
-            dec+=1;
+            des+=1;
         }
     }
-    if(acs==a||dec==a){
+    if(acs==a||des==a){
         printf("YES");
     }
     else{
