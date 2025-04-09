@@ -22,12 +22,12 @@ int main(){
     int des=0;
     for(int i=0;i<a;i++){
         if(arr[i]==arr1[i]){
-            asc++;
+            asc+=1;
         }
     }
     for(int i=0;i<a;i++){
         if(arr[i]==arr2[i]){
-            dec++;
+            dec+=1;
         }
     }
     if(acs==a||dec==a){
