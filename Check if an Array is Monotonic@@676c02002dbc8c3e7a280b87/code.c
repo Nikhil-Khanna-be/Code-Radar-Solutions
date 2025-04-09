@@ -22,7 +22,7 @@ int main(){
     int des=0;
     for(int i=0;i<a;i++){
         if(arr[i]==arr1[i]){
-            asc+=1;
+            acs+=1;
         }
     }
     for(int i=0;i<a;i++){
